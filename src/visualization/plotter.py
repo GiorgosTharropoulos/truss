@@ -133,18 +133,18 @@ class Plotter:
                 [
                     element.node1.x
                     + element.node1.nodal_displacements.x
-                    * self.space_map[200],
+                    * self.space_map[150],
                     element.node2.x
                     + element.node2.nodal_displacements.x
-                    * self.space_map[200],
+                    * self.space_map[150],
                 ],
                 [
                     element.node1.y
                     + element.node1.nodal_displacements.y
-                    * self.space_map[200],
+                    * self.space_map[150],
                     element.node2.y
                     + element.node2.nodal_displacements.y
-                    * self.space_map[200],
+                    * self.space_map[150],
                 ],
                 color=color,
                 linestyle=linestyle,
