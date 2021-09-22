@@ -1,0 +1,19 @@
+{
+    "python.envFile": "${workspaceRoot}/.env",
+    "python.pythonPath": ".env/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.mypyEnabled": true,
+    "python.testing.pytestArgs": [
+        "test"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.linting.enabled": true,
+    "cSpell.words": [
+        "dofs",
+        "mlines",
+        "ndarray",
+        "xytext"
+    ],
+}
